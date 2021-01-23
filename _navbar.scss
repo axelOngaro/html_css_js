@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  max-height: 10vh;
+  color: white;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+      }
+    }
+  }
+}

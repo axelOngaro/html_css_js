@@ -1,8 +1,16 @@
+@import 'home';
+@import 'navbar';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  font-size: 10px;
 }
 
-@import './home';
+.main {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,45 +1,38 @@
-.main {
-  background-image: url('./nitish-meena-RbbdzZBKRDY-unsplash (1).jpg');
-  background-size: cover;
-  background-position: 0 0;
+.home {
   width: 100vw;
-  height: 100vh;
-
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-
-    ul {
-      list-style: none;
-      display: flex;
-      width: 30%;
-      justify-content: space-between;
-      align-items: center;
-
-      li {
-        a {
-          text-decoration: none;
-          color: black;
-        }
-      }
-    }
-  }
-}
-.presentation {
-  width: 100vw;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sumup {
-  grid-column: 2/3;
-  grid-row: 2/3;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    padding: 5px;
+    font-weight: 200;
+  }
+}
+.contact-me_btn {
+  font-size: 2rem;
+  border: white 2px solid;
+  padding: 1rem 8rem;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 3rem;
 }

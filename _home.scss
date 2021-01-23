@@ -1,0 +1,45 @@
+.main {
+  background-image: url('./nitish-meena-RbbdzZBKRDY-unsplash (1).jpg');
+  background-size: cover;
+  background-position: 0 0;
+  width: 100vw;
+  height: 100vh;
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      width: 30%;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.presentation {
+  width: 100vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sumup {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
